@@ -1,0 +1,5 @@
+#!/bin/bash
+#using bash script by taking input 
+echo "what is the name of the file you want to upper case?"
+read what
+tr '[:lower:]' '[:upper:]' < $what
